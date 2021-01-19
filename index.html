@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text file reading</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <div class="logo">
+        <img
+          src="download.png"
+          alt="Informatics Logo"
+          style="height: 60px; width: 300px"
+        />
+      </div>
+      <h1>(OJS) XML Format Converter</h1>
+      <div>
+        <input type="file" id="input" />
+
+        <button class="js hidden" id="dload">Download</button>
+
+        <textarea
+          class="hidden"
+          id="dload-fn"
+          placeholder="Enter file name to download as"
+        >
+        </textarea>
+
+        <textarea
+          id="textarea"
+          cols="80"
+          rows="30"
+          placeholder="text will appear here"
+        >
+        </textarea>
+      </div>
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>

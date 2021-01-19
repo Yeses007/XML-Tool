@@ -1,0 +1,44 @@
+body {
+  background-color: rgba(102, 102, 102, 0.336);
+}
+
+h1 {
+  color: rgb(23, 131, 231);
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#input {
+  margin-top: -15px;
+  margin-right: -140px;
+}
+
+#dload {
+  transition: opacity 2s 1s ease;
+  float: left;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+#dload-fn {
+  float: left;
+  width: 50%;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 70%;
+}
+
+.logo {
+  margin-bottom: -10px;
+}
+
+.hidden {
+  display: none;
+}
